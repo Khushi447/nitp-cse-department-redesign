@@ -26,6 +26,10 @@ import {
 
 
 function HeroSection() {
+
+
+
+
   const images = [dep2, dep1];
   const [currentIndex, setCurrentIndex] = useState(0);
   const DropdownItem = ({ icon, text }) => {
@@ -94,7 +98,7 @@ function HeroSection() {
 
         <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
           <Award size={16} className="text-gray-500" />
-          NIT Status & Acts
+          <a href="https://www.nitp.ac.in/Others/NITAct">NIT Status and Acts</a>
         </div>
 
         <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
@@ -104,17 +108,12 @@ function HeroSection() {
 
         <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
           <Newspaper size={16} className="text-gray-500" />
-          Magazine
+          <a href="https://www.nitp.ac.in/Institute/Magazine">Magazine</a>
         </div>
 
         <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
           <CreditCard size={16} className="text-gray-500" />
-          PAN / GST
-        </div>
-
-        <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
-          <BookOpen size={16} className="text-gray-500" />
-          Annual Report
+          <a href="https://drive.google.com/file/d/1Njk4q-iZudKaNHgZ7eYprCfaFKd1BroC/view?usp=sharing">PAN / GST</a>
         </div>
 
       </div>
@@ -139,63 +138,89 @@ function HeroSection() {
 
   <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
     <User size={16} className="text-gray-500" />
-    Visitor
+    <a href="https://www.nitp.ac.in/Administration/Visitor">Visitor</a>
   </div>
 
   <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
-    <Building size={16} className="text-gray-500" />
-    Director
+    <User size={16} className="text-gray-500" />
+    <a href="https://www.nitp.ac.in/Institute/Director">Director</a>
   </div>
 
   <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
     <Landmark size={16} className="text-gray-500" />
-    NITs Council
+    <a href="https://www.nitp.ac.in/Administration/CONIT">NITs Council</a>
   </div>
 
   <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
     <Briefcase size={16} className="text-gray-500" />
-    Registrar
+    <a href="https://www.nitp.ac.in/Administration/Registrar">Registrar</a>
   </div>
 
   <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
     <Users size={16} className="text-gray-500" />
-    Board of Governors
+    <a href="https://www.nitp.ac.in/Administration/BOG">Board of Governors</a>
   </div>
 
   <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
     <Users size={16} className="text-gray-500" />
-    Deans
+    <a href="https://www.nitp.ac.in/Administration/Deans">Deans</a>
   </div>
 
   <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
     <Scale size={16} className="text-gray-500" />
-    Senate
+    <a href="https://www.nitp.ac.in/Administration/Senate">Senate</a>
+  </div>
+
+  <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
+    <User size={16} className="text-gray-500" />
+    <a href="https://www.nitp.ac.in/Administration/HOD">HoD</a>
+  </div>
+
+  <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
+    <Scale size={16} className="text-gray-500" />
+    <a href="https://www.nitp.ac.in/Administration/Proctorial_Board/cheif-proctor">Chief Proctor</a>
   </div>
 
   <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
     <LayoutList size={16} className="text-gray-500" />
-    HoD
+    <a href="https://www.nitp.ac.in/Administration/CVO">Chief Vigilance Officer</a>
+  </div>
+
+  <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
+    <Users size={16} className="text-gray-500" />
+    <a href="https://www.nitp.ac.in/Administration/SUH">Service Unit Heads</a>
+  </div>
+
+  <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
+    <Scale size={16} className="text-gray-500" />
+    <a href="https://www.nitp.ac.in/Administration/BWC">Building work committee</a>
   </div>
 
   <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
     <Wallet size={16} className="text-gray-500" />
-    Finance Committee
+    <a href="https://www.nitp.ac.in/Administration/FinanceCommittee">Finance Committee</a>
   </div>
 
   <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
     <Shield size={16} className="text-gray-500" />
-    Proctorial Board
+    <a href="https://www.nitp.ac.in/Administration/Proctorial_Board">Proctorial Board</a>
   </div>
 
   <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
     <FileText size={16} className="text-gray-500" />
-    Committees
+    <a href="https://www.nitp.ac.in/Department/CSE#">Committees</a>
   </div>
 
   <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
     <LayoutList size={16} className="text-gray-500" />
-    Organization Chart
+    <a href="https://drive.google.com/file/d/1-rCS5RsPydppIQKOYVM8qNYK8y4tUTMZ/view?usp=sharing">Organization Chart</a>
   </div>
+
+  <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
+    <FileText size={16} className="text-gray-500" />
+    <a href="https://www.nitp.ac.in/Department/CSE#">Minutes of Meeting</a>
+  </div>
+
 
 </div>
   </div>
@@ -224,37 +249,37 @@ function HeroSection() {
 
         <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
           <LayoutDashboard size={16} className="text-gray-500" />
-          Intranet Portal
+          <a href="https://www.nitp.ac.in/Academic/Intranet">Intranet Portal</a>
         </div>
 
         <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
           <GraduationCap size={16} className="text-gray-500" />
-          Programmes
+          <a href="https://www.nitp.ac.in/Course">Programmes</a>
         </div>
 
         <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
           <CalendarDays size={16} className="text-gray-500" />
-          Academic Calendar
+          <a href="https://www.nitp.ac.in/Academic/Calender">Academic Calendar</a>
         </div>
 
         <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
           <FileText size={16} className="text-gray-500" />
-          Rules & Regulations
+          <a href="https://www.nitp.ac.in/Academic/Curriculam">Rules & Regulations</a>
         </div>
 
         <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
           <GraduationCap size={16} className="text-gray-500" />
-          Admission
+          <a href="https://www.nitp.ac.in/Academic/Admission">Admission</a>
         </div>
 
         <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
           <IndianRupee size={16} className="text-gray-500" />
-          Fee Structure
+          <a href="https://www.nitp.ac.in/Academic/Fee">Fee Structure</a>
         </div>
 
         <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
           <Bell size={16} className="text-gray-500" />
-          Academic Notices
+          <a href="https://www.nitp.ac.in/Notices/Academic">Academic Notices</a>
         </div>
 
         <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
@@ -263,28 +288,33 @@ function HeroSection() {
         </div>
 
         <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
-          <BookOpen size={16} className="text-gray-500" />
-          Scholarships
+          <Award size={16} className="text-gray-500" />
+          <a href="https://www.nitp.ac.in/Student/Scholarship">Scholarship</a>
         </div>
 
         <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
           <BookOpen size={16} className="text-gray-500" />
-          Patents
+          <a href="https://www.nitp.ac.in/Academic/Patent">Patents</a>
         </div>
 
         <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
           <BookOpen size={16} className="text-gray-500" />
-          Publications
+          <a href="https://www.nitp.ac.in/Academic/Publication">Publications</a>
         </div>
 
         <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
           <BookOpen size={16} className="text-gray-500" />
-          Projects
+          <a href="https://www.nitp.ac.in/Academic/Projects">Projects</a>
         </div>
 
         <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
           <BookOpen size={16} className="text-gray-500" />
-          BIS Dashboard
+          <a href="https://www.nitp.ac.in/Academic/BIS">BIS Dashboard</a>
+        </div>
+
+        <div className="flex items-center gap-2 px-2 py-1.5 rounded-md hover:bg-gray-100 cursor-pointer">
+          <BookOpen size={16} className="text-gray-500" />
+          <a href="https://www.nitp.ac.in/Academic/Format">Format of Official Documents</a>
         </div>
 
       </div>
@@ -306,37 +336,37 @@ function HeroSection() {
       <div className="space-y-1 text-[14px]">
 
         <div className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100">
-          <Users size={17} className="text-gray-500" />
+          <Users size={16} className="text-gray-500" />
           Faculty Directory
         </div>
 
         <div className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100">
-          <UserCheck size={17} className="text-gray-500" />
+          <UserCheck size={16} className="text-gray-500" />
           Officers Directory
         </div>
 
         <div className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100">
-          <UserCog size={17} className="text-gray-500" />
+          <UserCog size={16} className="text-gray-500" />
           Staff Directory
         </div>
 
         <div className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100">
-          <LayoutDashboard size={17} className="text-gray-500" />
+          <LayoutDashboard size={16} className="text-gray-500" />
           Admin Portal
         </div>
 
         <div className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100">
-          <Laptop size={17} className="text-gray-500" />
+          <Laptop size={16} className="text-gray-500" />
           Faculty Academic Portal
         </div>
 
         <div className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100">
-          <FileText size={17} className="text-gray-500" />
+          <FileText size={16} className="text-gray-500" />
           Staff Claim Form
         </div>
 
         <div className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100">
-          <Calendar size={17} className="text-gray-500" />
+          <Calendar size={16} className="text-gray-500" />
           Holidays / Restricted Holidays
         </div>
 
@@ -359,72 +389,72 @@ function HeroSection() {
       <div className="grid grid-cols-2 gap-x-8 gap-y-2 text-[14px]">
 
         <div className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100 cursor-pointer">
-          <Home size={17} className="text-gray-500" />
+          <Home size={16} className="text-gray-500" />
           Hostel & Mess
         </div>
 
         <div className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100 cursor-pointer">
-          <Medal size={17} className="text-gray-500" />
+          <Medal size={16} className="text-gray-500" />
           Scholarship
         </div>
 
         <div className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100 cursor-pointer">
-          <Users size={17} className="text-gray-500" />
+          <Users size={16} className="text-gray-500" />
           Clubs / Societies
         </div>
 
         <div className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100 cursor-pointer">
-          <ShieldAlert size={17} className="text-gray-500" />
+          <ShieldAlert size={16} className="text-gray-500" />
           Anti Ragging
         </div>
 
         <div className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100 cursor-pointer">
-          <CreditCard size={17} className="text-gray-500" />
+          <CreditCard size={16} className="text-gray-500" />
           Fee Payment
         </div>
 
         <div className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100 cursor-pointer">
-          <Venus size={17} className="text-gray-500" />
+          <Venus size={16} className="text-gray-500" />
           Women Cell
         </div>
 
         <div className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100 cursor-pointer">
-          <UserRound size={17} className="text-gray-500" />
+          <UserRound size={16} className="text-gray-500" />
           SC / ST Cell
         </div>
 
         <div className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100 cursor-pointer">
-          <Activity size={17} className="text-gray-500" />
+          <Activity size={16} className="text-gray-500" />
           Student Activity Center
         </div>
 
         <div className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100 cursor-pointer">
-          <Cpu size={17} className="text-gray-500" />
+          <Cpu size={16} className="text-gray-500" />
           Tech Fest
         </div>
 
         <div className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100 cursor-pointer">
-          <Users size={17} className="text-gray-500" />
+          <Users size={16} className="text-gray-500" />
           NSS@NITP
         </div>
 
         <div className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100 cursor-pointer">
-          <Building2 size={17} className="text-gray-500" />
+          <Building2 size={16} className="text-gray-500" />
           E-Cell
         </div>
 
         <div className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100 cursor-pointer">
-          <Users size={17} className="text-gray-500" />
+          <Users size={16} className="text-gray-500" />
           Unnat Bharat
         </div>
 
         <div className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100 cursor-pointer">
-          <Laptop size={17} className="text-gray-500" />
+          <Laptop size={16} className="text-gray-500" />
           Academic Portal (New)
         </div>
 
         <div className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100 cursor-pointer">
-          <Laptop size={17} className="text-gray-500" />
+          <Laptop size={16} className="text-gray-500" />
           Academic Portal (Old)
         </div>
 
@@ -447,42 +477,42 @@ function HeroSection() {
       <div className="space-y-2 text-[14px]">
 
         <div className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100 cursor-pointer">
-          <Building2 size={17} className="text-gray-500" />
+          <Building2 size={16} className="text-gray-500" />
           Incubation Center
         </div>
 
         <div className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100 cursor-pointer">
-          <Cpu size={17} className="text-gray-500" />
+          <Cpu size={16} className="text-gray-500" />
           Computer Center
         </div>
 
         <div className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100 cursor-pointer">
-          <HeartPulse size={17} className="text-gray-500" />
+          <HeartPulse size={16} className="text-gray-500" />
           Health Center
         </div>
 
         <div className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100 cursor-pointer">
-          <Trophy size={17} className="text-gray-500" />
+          <Trophy size={16} className="text-gray-500" />
           Sports Facilities
         </div>
 
         <div className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100 cursor-pointer">
-          <BookOpen size={17} className="text-gray-500" />
+          <BookOpen size={16} className="text-gray-500" />
           Library
         </div>
 
         <div className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100 cursor-pointer">
-          <Landmark size={17} className="text-gray-500" />
+          <Landmark size={16} className="text-gray-500" />
           Bank
         </div>
 
         <div className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100 cursor-pointer">
-          <Bus size={17} className="text-gray-500" />
+          <Bus size={16} className="text-gray-500" />
           EMU
         </div>
 
         <div className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100 cursor-pointer">
-          <Building2 size={17} className="text-gray-500" />
+          <Building2 size={16} className="text-gray-500" />
           ESU
         </div>
 
